@@ -1,0 +1,631 @@
+.font {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+}
+
+
+.text-w{
+    color: rgb(168, 168, 168);
+}
+/* ---------------- */
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.628), rgba(0, 0, 0, 0.619)), url(../grid-img/imgs/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+header p::after {
+    content: """";
+    position: absolute;
+    animation: typing 3s infinite;
+    left: 50%;
+    top: 0;
+    width: 450px;
+    transform: translateX(-50%);
+
+}
+
+.fs-sm {
+    font-size: 30px;
+}
+
+.pro {
+    --bs-progress-height: 1.5rem;
+
+}
+.navbar{
+    --bs-navbar-nav-link-padding-x:0;
+}
+nav ul li a{
+    position: relative;
+    overflow: hidden;
+    
+}
+nav ul li a::after{
+ 
+    content: "";
+    width: 44px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: -120%;
+    transition: left .3s;
+    
+
+}
+nav ul li a:hover::after{
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+@keyframes typing {
+    0% {
+        content: "I AM DE |";
+    }
+
+    4% {
+        content: "I AM  DE|";
+    }
+
+    6% {
+        content: "I AM  DEV|";
+    }
+
+    8% {
+        content: "I AM  DEVE|";
+    }
+
+    10% {
+        content: "I AM  DEVELO|";
+    }
+
+    12% {
+        content: "I AM  DEVELOP|";
+    }
+
+    14% {
+        content: "I AM  DEVELOPE|";
+    }
+
+    16% {
+        content: "I AM  DEVELOPER|";
+    }
+
+    30% {
+        content: "I AM  DEVELOPER|";
+    }
+
+    33% {
+        content: "I AM  DEVELOPE|";
+    }
+
+    36% {
+        content: "I AM  DEVELOP|";
+    }
+
+    39% {
+        content: "I AM  DEVELO|";
+    }
+
+    42% {
+        content: "I AM  DEVE|";
+    }
+
+    45% {
+        content: "I AM  DEV|";
+    }
+
+    48% {
+        content: "I AM  DE|";
+    }
+
+    50% {
+        content: "I AM  DES|";
+    }
+
+    54% {
+        content: "I AM  DESI|";
+    }
+
+    58% {
+        content: "I AM  DESIG|";
+    }
+
+    61% {
+        content: "I AM  DESIGN|";
+    }
+
+    64% {
+        content: "I AM  DESIGNE|";
+    }
+
+    67% {
+        content: "I AM  DESIGNER|";
+    }
+
+    80% {
+        content: "I AM  DESIGNER|";
+    }
+
+    82% {
+        content: "I AM  DESIGNE|";
+    }
+
+    85% {
+        content: "I AM  DESIGN|";
+    }
+
+    88% {
+        content: "I AM  DESIG|";
+    }
+
+    92% {
+        content: "I AM  DESI|";
+    }
+
+    98% {
+        content: "I AM  DES|";
+    }
+
+    100% {
+        content: "I AM  DE|";
+    }
+
+}
+
+.fs {
+    font-size: 3.5rem;
+}
+
+.fs-m {
+    font-size: 2.5rem;
+
+}
+
+
+
+
+
+
+
+/* /////////////////////////////// */
+
+
+
+main section   .www{
+    background-image: url(../grid-img/imgs/dots.png);
+    background-repeat: repeat;
+}
+main section   .www img{
+    transform: translate(20px,-20px);
+}
+
+main section button:hover .first {
+    --bs-btn-color: black;
+    --bs-btn-color: white;
+}
+main .about .first{
+    background-color: black;
+    color: white;
+    transition: color .3s ,background-color .3s;
+    border: 2px solid black;
+
+}
+main .about .first:hover{
+    background-color:white;
+    color: black;
+}
+main .about .second{
+    background-color: white;
+    color: black;
+    transition: color .3s , background-color .3s;
+}
+main .about .second:hover{
+    background-color:black ;
+    color: white;
+}
+
+/* --------------------------------- */
+.bg {
+    background-color: #F7F7F7;
+   
+}
+
+.content .icon {
+    width: 80px;
+    height: 80px;
+    background-color: #eee;
+    ;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color .5s, color .5s;
+}
+
+main section .content {
+    padding: 50px 20px;
+}
+
+.content .icon i {
+    font-size: 25px;
+
+}
+
+.content:hover .icon {
+    background-color: black;
+    color: white;
+
+}
+
+.content .para {
+    word-spacing: 2px;
+
+}
+
+.w-90 {
+    width: 95%;
+}
+
+section .container .header h2 {
+    font-size: 2.8rem;
+    letter-spacing: .1px;
+}
+
+.fw-bolderer {
+    font-weight: 800;
+}
+
+section .container .header h2:after {
+    content: "";
+    width: 100%;
+    height: 15px;
+    
+    background-image: url(../grid-img/imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -7px;
+    left: 0%;
+    /* z-index: -1;  */
+}
+.w-15{
+    width: 15%;
+}
+/* --------------- */
+.border-color{
+    border-color: transparent;
+}
+/* .port-item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+} */
+
+.port-item .inner-content{
+    
+    transform: translateY(6%);
+    opacity: 0;
+    transition: transform .5s ,opacity .5s ,background-color .5s;
+    
+   
+}
+.port-item:hover .inner-content{
+    transform: translateY(0);
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.918);
+}
+.port-item .inner-content p{
+   
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    width: 100%;
+    transform: translateY(-100%);
+    transition: transform .5s ;
+}
+.port-item:hover  p
+{
+transform: translateY(30%);
+}
+.portifolio ul li button{
+    position: relative;
+    overflow: hidden;
+    padding: 10px 0;
+    border: 0;
+    border-radius: 0;
+}
+.portifolio ul li button::after{
+ content: "";
+ width: 100%;
+ height: 2px;
+ background-color: black;
+ position: absolute;
+ left: -100%;
+ bottom: 0%;
+ transition: left
+ .4s;
+}
+.nav{
+    --bs-nav-link-hover-color:black;
+}
+.nav-pills{
+    --bs-nav-pills-border-radius:0
+}
+.portifolio ul li button:hover::after{
+    left: 0;
+}
+.port-item .inner-content .icons{
+    display: flex;
+    column-gap:7px ;
+    
+
+    
+    /* justify-content: space-evenly; */
+}
+.port-item .inner-content .icon-back{
+    width: 30px;
+    height: 30px;
+    background-color: tan;
+    
+}
+
+/* -------------------------- */
+.carousel-indicators{
+    bottom: -54px;
+}
+.w-10{
+    width: 100px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.fs-s{
+    font-size: 13px;
+    font-weight: 700;
+
+}
+.count .content i::after{
+    content: "850";
+    width: 224%;
+    height: 36px;
+    /* background-color: teal; */
+    position: absolute;
+    transform: translateX(-72%);
+    bottom: -5%;
+    animation: count .9s;
+    
+    
+}
+
+.count .content i.icon2::after{
+    content: "230";
+    width: 224%;
+    height: 36px;
+    /* background-color: teal; */
+    position: absolute;
+    transform: translateX(-72%);
+    bottom: -5%;
+    animation: count .9s;
+    
+    
+}
+.count .content i.icon3::after{
+    content: "957";
+    width: 250%;
+    height: 36px;
+    /* background-color: teal; */
+    position: absolute;
+    transform: translateX(-72%);
+    bottom: -5%;
+    animation: count .9s;
+    
+    
+}
+.count .content i.icon4::after{
+    content: "780";
+    width: 224%;
+    height: 36px;
+    /* background-color: teal; */
+    position: absolute;
+    transform: translateX(-72%);
+    bottom: -5%;
+    animation: count .9s;
+    
+    
+}
+
+@keyframes count {
+    0%{
+        content: "0";
+    }
+    
+    5%{
+        content: "10";
+    }
+    10%{
+        content: "17";
+    }
+    15%{
+        content: "23";
+    }
+    20%{
+        content: "35";
+    }
+    25%{
+        content: "39";
+    }
+    30%{
+        content: "44";
+    }
+    35%{
+        content: "49";
+    }
+    40%{
+        content: "55";
+    }
+    45%{
+        content: "59";
+    }
+    50%{
+        content: "60";
+    }
+    55%{
+        content: "64";
+    }
+    60%{
+        content: "69";
+    }
+    65%{
+        content: "72";
+    }
+    70%{
+        content: "78";
+    }
+    75%{
+        content: "86";
+    }
+    80%{
+        content: "90";
+    }
+    85%{
+        content: "101";
+    }
+    90%{
+        content: "111";
+    }
+    
+    95%{
+        content: "817";
+    }
+    100%{
+        content: "850";
+    }
+}
+/* --------------------------------- */
+.team .item .content{
+    background-color: #5B5B5B;
+}
+.team .item .icons{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    background-color: rgba(255, 255, 255, 0.95);
+   
+    width: 98%;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: transform .6s, opacity .4s;
+}
+.team .item:hover .icons{
+    transform: rotateY(180deg);
+    opacity: 1;
+}
+
+.team .item .photo{
+   overflow: hidden;
+}
+.team .item .icons span i:hover{
+    color: teal;
+    /* background-color: white; */
+    border-radius: 50%;
+    
+}
+.team .item img{
+    transition: transform .6s;
+
+}
+.team .item .photo:hover img{
+    transform: scale(1.2,1.2 );
+}
+
+
+.contact .icon{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    transition: color .5s ,background-color .5s;
+}
+.contact .icon:hover{
+    color: white;
+    background-color: black;
+}
+.h{
+    height: 100px;
+}
+.bg-i{
+    background-color: #F4F4F4;
+}
+
+.nav-pills{
+    --bs-nav-pills-link-active-bg:white;
+    --bs-nav-pills-link-active-color:black;
+ 
+}  
+ :root{
+
+    --bs-link-color:black;
+} 
+.text-color{
+    color: #748182;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:700px) {
+
+    .fs-sm {
+        font-size: 2.5rem;
+
+    }
+
+}
+
+@media (min-width:900px) {
+
+    .fs-sm {
+        font-size: 3.5rem;
+        padding-bottom: 70px !important;
+
+
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+        height: 30%;
+    }
+}
